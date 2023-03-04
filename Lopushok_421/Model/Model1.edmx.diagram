@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f5323d8714e24c46a96ce0e5a198816c" Name="Diagram1">
+        <EntityTypeShape EntityType="Lopushok_DBModel.Agents" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Lopushok_DBModel.Application" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Lopushok_DBModel.Buyers" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Lopushok_DBModel.Managers" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Lopushok_DBModel.Materials" Width="1.5" PointX="6" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Lopushok_DBModel.Products" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Lopushok_DBModel.Products_Material" Width="1.5" PointX="8.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Lopushok_DBModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Lopushok_DBModel.Type_Materials" Width="1.5" PointX="3.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Lopushok_DBModel.Type_Products" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="Lopushok_DBModel.Units" Width="1.5" PointX="3.75" PointY="17.25" IsExpanded="true" />
+        <AssociationConnector Association="Lopushok_DBModel.FK_Application_Agents" ManuallyRouted="false" />
+        <AssociationConnector Association="Lopushok_DBModel.FK_Application_Managers" ManuallyRouted="false" />
+        <AssociationConnector Association="Lopushok_DBModel.FK_Application_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="Lopushok_DBModel.FK_Materials_Type_Materials" ManuallyRouted="false" />
+        <AssociationConnector Association="Lopushok_DBModel.FK_Materials_Units" ManuallyRouted="false" />
+        <AssociationConnector Association="Lopushok_DBModel.FK_Products_Material_Materials" ManuallyRouted="false" />
+        <AssociationConnector Association="Lopushok_DBModel.FK_Products_Material_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="Lopushok_DBModel.FK_Products_Type_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
